@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(85, 214, 239, 0.668);
+}
+
+#ram {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100p;
+    border-radius: 50px;
+    border-width: 20px;
+    border-style: double;
+    border-color: black;
+    border-left-color: red;
+    border-right-color: red;
+    
+}
+#display {
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.btn-box{
+    cursor: pointer;
+}
+
+.btn-box .box{
+    height: 55px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 30%;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.box-div{
+    padding: 10px;
+}
